@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.CalibrationPageController">
+   <children>
+      <AnchorPane fx:id="anchor" prefHeight="450.0" prefWidth="750.0">
+         <children>
+            <Label layoutX="297.0" layoutY="45.0" text="Calibration">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Text fx:id="label" layoutX="65.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8 songs from a standardised database will be played to you">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="As each song is being played you are required to keep as still as possible with your eyes closed and your hands on your lap" wrappingWidth="639.9326026439667">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="After each song you are required to take a 10s break, during which you are required to relax and clear your mind" wrappingWidth="538.8906195759773">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Line endX="530.0" layoutX="174.0" layoutY="309.0" opacity="0.52" startX="-120.0" />
+            <Text layoutX="55.0" layoutY="368.0" onMouseClicked="#onTextClicked" strokeType="OUTSIDE" strokeWidth="0.0" text="Once you are ready, close your eyes" wrappingWidth="639.9326026439667">
+               <font>
+                  <Font name="Monospaced Regular" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

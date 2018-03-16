@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MusicSurveyController">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="700.0">
+         <children>
+            <Line endX="550.0" layoutX="127.0" layoutY="96.0" opacity="0.39" startX="-110.0" strokeWidth="0.8" />
+            <Label layoutX="39.0" layoutY="21.0" text="Name: " />
+            <Label layoutX="48.0" layoutY="51.0" text="Age: " />
+            <TextField fx:id="nameField" layoutX="94.0" layoutY="17.0" />
+            <TextField fx:id="ageField" layoutX="94.0" layoutY="47.0" />
+            <Button fx:id="submitButton1" layoutX="286.0" layoutY="47.0" mnemonicParsing="false" onAction="#submitButton1Clicked" prefHeight="25.0" prefWidth="66.0" text="GO" />
+            <Line endX="550.0" layoutX="127.0" layoutY="140.0" opacity="0.39" startX="-110.0" strokeWidth="0.8" />
+            <Label layoutX="48.0" layoutY="110.0" text="Genre" />
+            <Line endX="-110.0" endY="285.0" layoutX="220.0" layoutY="96.0" opacity="0.39" startX="-110.0" strokeWidth="0.8" />
+            <Label layoutX="125.0" layoutY="110.0" text="Least Favourite" />
+            <Label layoutX="485.0" layoutY="110.0" text="Most Favourite" />
+            <RadioButton fx:id="rb11" layoutX="158.0" layoutY="154.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb16" disable="true" layoutX="514.0" layoutY="154.0" mnemonicParsing="false" />
+            <Label fx:id="label1" layoutX="50.0" layoutY="154.0" text="Pop" />
+            <Label fx:id="label2" layoutX="30.0" layoutY="193.0" text="Heavy Metal" />
+            <Label fx:id="label3" layoutX="50.0" layoutY="232.0" text="Rap" />
+            <Button fx:id="submitButton2" layoutX="579.0" layoutY="400.0" mnemonicParsing="false" onAction="#submitButton2Clicked" prefHeight="25.0" prefWidth="80.0" text="Submit" />
+            <Label fx:id="label4" layoutX="36.0" layoutY="271.0" text="Classical" />
+            <Label fx:id="label5" layoutX="45.0" layoutY="310.0" text="EDM" />
+            <Label fx:id="label6" layoutX="25.0" layoutY="348.0" text="Instrumental" />
+            <Line endX="-110.0" endY="285.0" layoutX="690.0" layoutY="96.0" opacity="0.39" startX="-110.0" strokeWidth="0.8" />
+            <RadioButton fx:id="rb12" layoutX="229.2" layoutY="154.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb21" layoutX="159.0" layoutY="193.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb26" disable="true" layoutX="515.0" layoutY="193.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb22" layoutX="230.0" layoutY="193.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb23" layoutX="301.0" layoutY="193.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb24" layoutX="373.0" layoutY="193.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb25" layoutX="444.0" layoutY="193.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb31" layoutX="159.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb36" disable="true" layoutX="515.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb32" layoutX="230.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb33" layoutX="301.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb34" layoutX="373.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb35" layoutX="444.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb41" layoutX="159.0" layoutY="271.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb46" disable="true" layoutX="515.0" layoutY="271.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb42" layoutX="230.0" layoutY="271.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb43" layoutX="301.0" layoutY="271.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb44" layoutX="373.0" layoutY="271.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb45" layoutX="444.0" layoutY="271.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb51" layoutX="159.0" layoutY="310.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb56" disable="true" layoutX="515.0" layoutY="310.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb52" layoutX="230.0" layoutY="310.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb53" layoutX="301.0" layoutY="310.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb54" layoutX="373.0" layoutY="310.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb55" layoutX="444.0" layoutY="310.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb61" disable="true" layoutX="159.0" layoutY="349.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb66" disable="true" layoutX="515.0" layoutY="349.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb62" disable="true" layoutX="230.0" layoutY="349.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb63" disable="true" layoutX="301.0" layoutY="349.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb64" disable="true" layoutX="373.0" layoutY="349.0" mnemonicParsing="false" />
+            <RadioButton fx:id="rb65" disable="true" layoutX="444.0" layoutY="349.0" mnemonicParsing="false" />
+            <RadioButton fx:id="notSure1" disable="true" layoutX="619.0" layoutY="154.0" mnemonicParsing="false" />
+            <RadioButton fx:id="notSure2" disable="true" layoutX="620.0" layoutY="193.0" mnemonicParsing="false" />
+            <RadioButton fx:id="notSure3" disable="true" layoutX="620.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="notSure4" disable="true" layoutX="620.0" layoutY="271.0" mnemonicParsing="false" />
+            <RadioButton fx:id="notSure5" disable="true" layoutX="620.0" layoutY="310.0" mnemonicParsing="false" />
+            <RadioButton fx:id="notSure6" disable="true" layoutX="620.0" layoutY="349.0" mnemonicParsing="false" />
+            <Label layoutX="606.0" layoutY="110.0" text="Not Sure" />
+            <Label fx:id="removeLabel1" layoutX="289.0" layoutY="350.0" text="IN DEVELOPMENT" />
+            <Line fx:id="line1" endX="25.0" layoutX="260.0" layoutY="358.0" startX="-100.0" />
+            <Line fx:id="line2" endX="263.0" layoutX="260.0" layoutY="358.0" startX="130.0" />
+            <Label fx:id="removeLabel2" layoutX="475.0" layoutY="249.0" rotate="90.0" text="IN DEVELOPMENT" />
+            <Line fx:id="line3" endX="253.0" endY="53.0" layoutX="270.0" layoutY="150.0" startX="253.0" startY="12.0" />
+            <Line fx:id="line4" endX="253.0" endY="198.0" layoutX="270.0" layoutY="160.0" startX="253.0" startY="150.0" />
+            <Label fx:id="removeLabel3" layoutX="582.0" layoutY="248.0" rotate="90.0" text="IN DEVELOPMENT" />
+            <Line fx:id="line5" endX="253.0" endY="55.0" layoutX="377.0" layoutY="148.0" startX="253.0" startY="12.0" />
+            <Line fx:id="line6" endX="253.0" endY="198.0" layoutX="377.0" layoutY="158.0" startX="253.0" startY="153.0" />
+            <Label fx:id="infoLabel" layoutX="236.0" layoutY="241.0" text="Fill in your name first">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <RadioButton fx:id="rb13" layoutX="300.4" layoutY="154.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rb14" layoutX="371.6" layoutY="154.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rb15" layoutX="442.8" layoutY="154.0" mnemonicParsing="false" />
+   </children>
+</AnchorPane>
